@@ -26,6 +26,10 @@ footer {
     max-width: 100%;
 }
 
+#bius-btn {
+    padding-left: 12%;
+}
+
 #reundo {
     margin-left: auto;
 }

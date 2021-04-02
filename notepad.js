@@ -15,6 +15,18 @@ function strikethrough() {
     document.execCommand('strikethrough',false, null);
 }
 
+function alignLeft() {
+    document.execCommand('justifyLeft',false,null);
+}
+
+function alignCenter() {
+    document.execCommand('justifyCenter',false,null);
+}
+
+function alignRight() {
+    document.execCommand('justifyRight',false,null);
+}
+
 function undo() {
     document.execCommand('undo',false,null);
 }
