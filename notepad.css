@@ -1,0 +1,71 @@
+body {
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    background-color: rgb(219, 238, 255);
+    overflow: hidden; /*this hides the scroll bar from view so it doesn't affects the webpage*/
+}
+
+.logo {
+    text-align: center;
+    margin-top: 25px;
+    max-width: 100%;
+}
+
+footer {
+    text-align: center;
+    max-width: 100%;
+    margin: 25px;
+}
+
+.buttons {
+    text-align: center;
+    margin: 15px auto;
+    max-width: 100%;
+}
+
+#reundo {
+    margin-left: auto;
+}
+
+.fontncount {
+    padding-left: 19%;
+}
+
+#fontselector{
+    text-align: auto;
+    margin: 15px auto;
+    max-width: 100%;
+}
+
+.btn {
+    border: 1px solid rgb(199,199,199);
+    background-color: lavenderblush;
+}
+
+#kira-ayat {
+    margin: auto;
+}
+
+#texteditor {
+    background-image: url(img/notes.png);
+    background-size: auto;
+    background-position-y: center;
+    border: 1px solid rgb(221, 221, 221);
+    height: 400px;
+    min-width: 280px;
+    max-width: 850px;
+    max-height: auto;
+    margin: auto;
+    padding: 0 15px 0 15px;
+    resize: none;
+    overflow:auto;
+}
+
+/* :focus is when we go into a text box and athere is an outline that indicates we are currently working in that textbox. Here i'm trying to make the texteditor outline disappear so i'm setting it to none*/
+
+#texteditor:focus {
+    outline: none;
+}
+
