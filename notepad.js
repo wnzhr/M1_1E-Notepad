@@ -42,6 +42,11 @@ function changeSize(){
     document.execCommand('fontSize', false, size);
   }
 
+  function chooseColor(){
+    var mycolor = document.getElementById("fontColor").value;
+    document.execCommand('foreColor', false, mycolor);
+  }
+
 /* Word Count */
 
 function wordCount(){
@@ -61,10 +66,10 @@ function wordCount(){
 
 /* Local Storage */
 
-//load last session from local storage
-document.getElementById("texteditor").innerHTML = localStorage["text"] ;
-
 //save session to local storage interval
 setInterval(function(){
             localStorage["text"] = document.getElementById("texteditor").innerHTML;
             }, 1000);
+
+//load last session from local storage
+document.getElementById("texteditor").innerHTML = localStorage["text"] ;
